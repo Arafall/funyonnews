@@ -1,0 +1,36 @@
+
+header h1, h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header h5 {
+    color: gray;
+}
+
+
+
+#container {
+    min-width: 80%;
+    text-align: center;
+    background-color: aliceblue;
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: cadetblue;
+    box-shadow: 3px 5px 8px gray;
+}
+
+
+
+
+@media screen and (min-width: 500px) {
+   
+}
+
+@media screen and (min-width: 768px) {
+   
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
