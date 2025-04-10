@@ -22,7 +22,6 @@ nav {
     text-align: left;
 }
 
-
 #container {
     min-width: 80%;
     text-align: center;
@@ -101,9 +100,13 @@ footer {
     color: aliceblue;
 }
 
+footer a {
+    color: aliceblue;
+}
+
 a {
     text-decoration: none;
-    color: aliceblue;
+    color: black;
 }
 
 a:hover {
@@ -116,6 +119,19 @@ a:hover {
 
 .media {
     visibility: hidden;
+}
+
+nav ul {
+    text-align: right;
+    list-style: none;
+    display: block;
+    visibility: hidden;
+}
+
+nav li {
+    float: right;
+    text-align: center;
+    margin-left: 15px;
 }
 
 @media screen and (min-width: 500px) {
@@ -133,7 +149,20 @@ a:hover {
 }
 
 @media screen and (min-width: 768px) {
-   
+    .trending li {
+        padding: 10px;
+        padding-bottom: 50px;
+    }
+    .hamburger {
+        visibility: hidden;
+    }
+    nav li {
+        visibility: visible;
+    }
+    nav {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
 }
 
 @media screen and (min-width: 1024px) {
