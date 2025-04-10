@@ -1,6 +1,7 @@
 body {
     min-width: 400px;
     background-color: antiquewhite;
+    margin: 20px;
 }
 
 header h1, h5 {
@@ -82,9 +83,6 @@ nav {
     outline-style: solid;
     outline-color: cadetblue;
     padding: 10px;
-}
-
-.trending li {
     margin-bottom: 10px;
 }
 
@@ -112,8 +110,26 @@ a:hover {
     color:cornflowerblue;
 }
 
+.trendingicon {
+    float: right;
+}
+
+.media {
+    visibility: hidden;
+}
+
 @media screen and (min-width: 500px) {
-   
+    .media {
+        visibility: visible;
+    }
+    .trendingicon {
+        float: right;
+    }
+
+    .trending li {
+        padding: 10px;
+        padding-bottom: 30px;
+    }
 }
 
 @media screen and (min-width: 768px) {
